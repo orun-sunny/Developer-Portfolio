@@ -9,13 +9,14 @@ h1{
 .orage-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 200px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
+    box-shadow:10px,10px yellow;
 }
 .half-width img{
     width: 50%;
@@ -38,4 +39,38 @@ section{
     background-position: right;
     background-image:4 10 ;
     /* margin-bottom: unset; */
+}
+.experience-area{
+    background-image:url( pex.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    opacity: 0.8;
+
+
+}
+.experience-iteam{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+    /* border-left: solid; */
+   
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice:1 ;
+
+}
+#full-stack-experience{
+    border-left: 7px solid;
+    border-image:linear-gradient(salmon,cyan);
+    border-image-slice:1 ;
+
+
+}
+footer{
+    text-align: center;
 }
